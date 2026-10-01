@@ -2,6 +2,7 @@
 
 import dotenv from "dotenv"
 import connectDB from "./db/index.js";
+import { app } from './app.js'
 
 console.log("Mongo URI exists:", !!process.env.MONGODB_URI);
 
