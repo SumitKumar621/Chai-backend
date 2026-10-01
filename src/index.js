@@ -7,7 +7,7 @@ import { app } from './app.js'
 console.log("Mongo URI exists:", !!process.env.MONGODB_URI);
 
 dotenv.config({
-    path: './env'
+    path: './.env'
 })
 connectDB()
 .then(() => {
